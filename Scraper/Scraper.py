@@ -161,5 +161,12 @@ df.to_csv (r'C:\Users\waing\Desktop\Scraper\export_dataframe.csv', index = False
 # In[17]:
 
 
-df
+#TO read a document from the collection
+records.find_one{} 
+
+records.find_one{'author':'Linda Geddes'}#find by author name
+
+records.find_one({'title':'The ‘culture wars’ are a symptom, not the cause, of Britain’s malaise'})#find by title
+
+
 
